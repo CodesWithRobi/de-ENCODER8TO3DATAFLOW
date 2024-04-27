@@ -35,21 +35,36 @@ Logical circuit of the above expressions is given below:
 Figure 02  Encoder 8 * 3
 
 **Procedure**
-
-/* write all the steps invloved */
+1.Write program in Verilog HDL file using Quartus software
+2.This would include logic to encode
+3.Compile it
+4.Use gate level simulation to find the output
+5.Generate RTL viewer to generate the circuit
 
 **PROGRAM**
-
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:
-*/
+```
+module ENCODER8TO3(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a0,a1,a2;
+//add logic here using dataflow modelling
+assign a0 = d1 + d3 + d5 + d7;
+assign a1 = d2 + d3 + d6 + d7;
+assign a2 = d4 + d5 + d6 + d7;
+endmodule
+```
+Developed by: ROBINSON J
+RegisterNumber:212223040170
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![rtl](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/42f901cf-b707-4010-9b3e-492c73eab0d8)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![waveform](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/a6bc3c30-a4d6-4ab8-81f2-ea9ec749ef1d)
 
 **RESULTS**
+![compile](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/6a670fe8-ba6c-4165-8225-2414675d9423)
+
+Implementation of  Encoder 8 To 3 in Dataflow Modelling using verilog was successful and validated their functionality using their functional tables.
 
 
 
