@@ -56,7 +56,7 @@ Developed by: ROBINSON J
 RegisterNumber:212223040170
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![rtl](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/42f901cf-b707-4010-9b3e-492c73eab0d8)
+![image](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/925c352d-50f6-410e-935e-5cc2bc889826)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 ![waveform](https://github.com/CodesWithRobi/de-ENCODER8TO3DATAFLOW/assets/130537166/a6bc3c30-a4d6-4ab8-81f2-ea9ec749ef1d)
